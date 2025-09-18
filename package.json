@@ -1,7 +1,7 @@
 {
-  "name": "strapi-next-launchpad-example",
+  "name": "strapi-next-ProAxon-example",
   "version": "1.0.0",
-  "description": "Next.js Launchpad Example powered by Strapi",
+  "description": "Next.js ProAxon Example powered by Strapi",
   "type": "module",
   "scripts": {
     "prepare": "husky",

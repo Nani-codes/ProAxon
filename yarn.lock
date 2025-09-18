@@ -1146,9 +1146,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strapi-next-launchpad-example@workspace:.":
+"strapi-next-ProAxon-example@workspace:.":
   version: 0.0.0-use.local
-  resolution: "strapi-next-launchpad-example@workspace:."
+  resolution: "strapi-next-ProAxon-example@workspace:."
   dependencies:
     "@trivago/prettier-plugin-sort-imports": "npm:^5.2.2"
     "@types/node": "npm:^22.5.2"
