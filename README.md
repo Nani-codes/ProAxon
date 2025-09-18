@@ -1,8 +1,8 @@
-# LaunchPad - Official Strapi Demo
+# ProAxon - Official Strapi Demo
 
-![LaunchPad](./LaunchPad.jpg)
+![ProAxon](./ProAxon.jpg)
 
-Welcome aboard **LaunchPad**, the official Strapi demo application, where we launch your content into the stratosphere at the speed of _"we-can't-even-measure-it!"_.
+Welcome aboard **ProAxon**, the official Strapi demo application, where we launch your content into the stratosphere at the speed of _"we-can't-even-measure-it!"_.
 This repository contains the following:
 
 - A Strapi project with content-types and data already onboard
@@ -12,15 +12,15 @@ This repository contains the following:
 
 Strap yourself in! You can get started with this project on your local machine by following the instructions below, or you can [request a private instance on our website](https://strapi.io/demo)
 
-## 1. Clone Launchpad
+## 1. Clone ProAxon
 
 To infinity and beyond! 🚀 Clone the repo with this command:
 
 ```
-git clone https://github.com/strapi/launchpad.git
+git clone https://github.com/strapi/ProAxon.git
 ```
 
-- Navigate to your project folder by running `cd launchpad`.
+- Navigate to your project folder by running `cd ProAxon`.
 
 ## 2. Set up environment variables
 
@@ -40,11 +40,11 @@ cp ./next/.env.example ./next/.env
 
 ## 3. Start Strapi
 
-Take a deep breath. It's time to power up the Strapi engines. Navigate to your ./my-projects/launchpad/strapi folder by running:
+Take a deep breath. It's time to power up the Strapi engines. Navigate to your ./my-projects/ProAxon/strapi folder by running:
 
-Navigate to your `./my-projects/launchpad/strapi` folder by running `cd strapi` from your command line.
+Navigate to your `./my-projects/ProAxon/strapi` folder by running `cd strapi` from your command line.
 
-- Run the following command in your `./launchpad/strapi` folder:
+- Run the following command in your `./ProAxon/strapi` folder:
 
 ```
 yarn && yarn seed && yarn develop
@@ -56,9 +56,9 @@ This will install dependencies, sprinkle in some data magic, and run the server.
 
 We're almost ready for lift-off! Next.js is your sleek, futuristic interface for getting all that glorious content out into the world. 🚀
 
-Open a new terminal tab or window to leave Strapi running, and navigate to your `./my-projects/launchpad/next` folder by running `cd next`.
+Open a new terminal tab or window to leave Strapi running, and navigate to your `./my-projects/ProAxon/next` folder by running `cd next`.
 
-- Run the following command in your `./launchpad/next` folder
+- Run the following command in your `./ProAxon/next` folder
 
 ```
 yarn && yarn build && yarn start

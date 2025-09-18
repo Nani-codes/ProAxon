@@ -88,7 +88,7 @@ export const DesktopNavbar = ({
         </div>
       </div>
       <div className="flex space-x-2 items-center">
-        <LocaleSwitcher currentLocale={locale} />
+        {/* <LocaleSwitcher currentLocale={locale} /> */}
 
         {rightNavbarItems.map((item, index) => (
           <Button
