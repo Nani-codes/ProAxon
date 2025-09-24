@@ -40,4 +40,12 @@ export default ({ env }) => ({
       },
     },
   },
+
+  url: '/strapi/admin',
+  vite: {
+    server: {
+      allowedHosts: ['proaxon.in', 'www.proaxon.in'],
+      hmr: { host: 'proaxon.in', protocol: 'wss' },
+    },
+  },
 });
