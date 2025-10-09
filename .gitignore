@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 .vscode
 .env
+.next
 .claude/settings.local.json
 .pnp.*
 .yarn/*
