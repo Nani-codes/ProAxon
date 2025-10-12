@@ -581,37 +581,41 @@ splitTitleLines.forEach(splitTextLine => {
 ////////////////////////////////////////////////////////////////////////////////
 // 23. Section Heading Animation
 
-let headingTimeline = gsap.timeline()
-
+// Subtitle animation (if exists)
 let subTitleContainer = new SplitText(".tp_subtitle_anim", { type: "chars" });
 let subTitleChar = subTitleContainer.chars 
-headingTimeline.from(subTitleChar, {
+gsap.from(subTitleChar, {
   x: 20,
   ease: "back.out",
   opacity: 0,
-  duration: 1,
-  stagger: 0.1
+  duration: 0.5,
+  stagger: 0.05,
+  delay: 0.1
 });
 
+// Title animation - runs immediately
 let TitleContainer = new SplitText(".tp_title_anim", { type: "chars, words" });
 let TitleChar = TitleContainer.words 
-headingTimeline.from(TitleChar, {
+gsap.from(TitleChar, {
     x: 100,
     y: 0,
     z: -200,
     autoAlpha: 0,
-    duration: 2,
-    stagger: 0.2
-},"-=2");
+    duration: 0.6,
+    stagger: 0.08,
+    delay: 0.2
+});
 
+// Description animation - runs immediately after title starts
 let descriptionContainer = new SplitText(".tp_desc_anim", { type: "chars, words" });
 let descriptionChar = descriptionContainer.words 
-headingTimeline.from(descriptionChar, {
+gsap.from(descriptionChar, {
     x: 50,
     autoAlpha: 0,
-    duration: 1,
-    stagger: 0.05
-},"-=2"); 
+    duration: 0.4,
+    stagger: 0.02,
+    delay: 0.4
+}); 
 
 
 /////////////////////////////////////////////////////
