@@ -9140,7 +9140,7 @@ Header CSS 01 Start
 .side-info {
   width: 100%;
   max-width: 400px;
-  background-color: #000;
+  background-color: #fff;
   box-shadow: 0 13px 29px rgba(4, 0, 23, 0.1);
   height: 100%;
   position: fixed;
@@ -9172,7 +9172,7 @@ Header CSS 01 Start
   width: 100%;
   height: 100%;
   content: "";
-  background-color: rgba(4, 0, 23, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
   z-index: 9;
   opacity: 0;
   visibility: hidden;
@@ -9199,7 +9199,7 @@ Header CSS 01 Start
   font-size: 16px;
   padding-left: 0;
   padding-right: 0;
-  color: #fff;
+  color: #1B2A52;
 }
 
 .mean-container .mean-nav ul li:hover > a {
@@ -9211,14 +9211,14 @@ Header CSS 01 Start
   background: transparent;
   border: none;
   font-size: 25px;
-  color: #fff;
+  color: #1B2A52;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
   padding: 8px 0;
   border: none;
   background-color: transparent;
-  color: #fff;
+  color: #1B2A52;
   width: auto;
 }
 
