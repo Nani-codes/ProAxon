@@ -5566,6 +5566,20 @@ Header CSS 01 Start
   line-height: 24px;
   margin-bottom: 0;
 }
+@media (max-width: 768px) {
+  .inner_work-item-text p {
+    font-size: 14px;
+    line-height: 22px;
+    word-wrap: break-word;
+  }
+  .inner_work-item-number {
+    width: 80px;
+    flex-shrink: 0;
+  }
+  .inner_work-item-number h3 {
+    font-size: 28px;
+  }
+}
 
 /* ///////////////////////////////////////////////////////////
 10. apps
